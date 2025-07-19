@@ -3,7 +3,7 @@ const toggle = document.querySelectorAll('.toggle')
 const activeLink = document.getElementById('active');
 const inactiveLink = document.getElementById('inactive');
 const allLink = document.getElementById('all');
-const filterLinks = document.querySelectorAll('.filters a');
+const filterLinks = document.querySelectorAll('.filters li');
 const extensions = document.querySelectorAll('.extension');
 
 
@@ -32,11 +32,11 @@ filterLinks.forEach(link => {
                 }
             });
 
-            } else if (link.id === 'all') {
-                extensions.forEach(extension => {
-                    extension.style.display = '';
-                });
-            }
+        } else if (link.id === 'all') {
+            extensions.forEach(extension => {
+                extension.style.display = '';
+            });
+        }
     });
 });
 
