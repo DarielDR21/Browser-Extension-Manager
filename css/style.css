@@ -46,15 +46,21 @@ h1 {
 .filters {
     display: flex;
     gap: 10px;
+    margin-bottom: 10px;
 }
 
 .filters > li {
     list-style: none;
     border-radius: 10px;
     background: hsl(226, 11%, 37%);
-    font-size: 1.2rem;
-    padding: 10px;
+    font-size: 1rem;
+    padding: 7px 10px;
     border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 78%);
 }
 
 .extensions {
@@ -76,7 +82,7 @@ h1 {
 
 .image > img{
     width: 40px;
-    margin-bottom: 40px;g
+    margin-bottom: 40px;
 }
 
 .text {
@@ -85,7 +91,7 @@ h1 {
 
 .text > p {
     font-size: 12px;
-    color: hsl(0, 0%, 78%)
+    color: hsl(0, 0%, 78%);
 }
 
 .text > h3 {
